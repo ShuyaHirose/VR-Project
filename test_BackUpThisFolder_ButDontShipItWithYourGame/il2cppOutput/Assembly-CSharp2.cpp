@@ -479,6 +479,8 @@ struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
 struct CowController_t6BEDAB80805CFAE6BDA0C9BBCC7E24E5EA103895;
 // CreateRangeRandomPosition
 struct CreateRangeRandomPosition_t06EFFA8B0E3228876168E758BEE85DAF06946947;
+// CubeTest
+struct CubeTest_t363022E89B7E5EB4C1D16110EA731B55A053D0E2;
 // DebugUIBuilder
 struct DebugUIBuilder_tC18B19AE08445BA1378C7DABB0E4858217E02E71;
 // System.Delegate
@@ -911,6 +913,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D
 IL2CPP_EXTERN_C String_t* _stringLiteral75AB8BCFD46EFD61011E81C209870785F7C0429A;
 IL2CPP_EXTERN_C String_t* _stringLiteral78B861D9789220F101E6A2B45F723663B75C06E9;
 IL2CPP_EXTERN_C String_t* _stringLiteral7E70AF961A2F88ADB9DB7B9C3B5F25A532C1570A;
+IL2CPP_EXTERN_C String_t* _stringLiteral7F510DA10492774DFBF36338821C25B09D6042D3;
 IL2CPP_EXTERN_C String_t* _stringLiteral83C940CCC7153451903DD8149886EAB029AB7BB6;
 IL2CPP_EXTERN_C String_t* _stringLiteral896A889B825C68A1CE8F6A4637769331EF03BF90;
 IL2CPP_EXTERN_C String_t* _stringLiteral8BF693870A1CA202D2EE1A186395E62B409214FD;
@@ -3996,6 +3999,13 @@ struct CreateRangeRandomPosition_t06EFFA8B0E3228876168E758BEE85DAF06946947  : pu
 	float ___time_7;
 };
 
+// CubeTest
+struct CubeTest_t363022E89B7E5EB4C1D16110EA731B55A053D0E2  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// TMPro.TextMeshProUGUI CubeTest::text
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___text_4;
+};
+
 // DebugUIBuilder
 struct DebugUIBuilder_tC18B19AE08445BA1378C7DABB0E4858217E02E71  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -7040,6 +7050,10 @@ struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_StaticFields
 // CreateRangeRandomPosition
 
 // CreateRangeRandomPosition
+
+// CubeTest
+
+// CubeTest
 
 // DebugUIBuilder
 struct DebugUIBuilder_tC18B19AE08445BA1378C7DABB0E4858217E02E71_StaticFields
@@ -13333,6 +13347,40 @@ IL_00c3:
 }
 // System.Void CreateRangeRandomPosition::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CreateRangeRandomPosition__ctor_m1BA7877DF256F010F6531EF6E26E02B081CC3A00 (CreateRangeRandomPosition_t06EFFA8B0E3228876168E758BEE85DAF06946947* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void CubeTest::OnPointerClick()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeTest_OnPointerClick_m25CB80FADE5CAECE1A70BDFCADFA7BDFD53BBD47 (CubeTest_t363022E89B7E5EB4C1D16110EA731B55A053D0E2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7F510DA10492774DFBF36338821C25B09D6042D3);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// text.text = "Cube???N???b?N???????";
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___text_4;
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(66 /* System.Void TMPro.TMP_Text::set_text(System.String) */, L_0, _stringLiteral7F510DA10492774DFBF36338821C25B09D6042D3);
+		// }
+		return;
+	}
+}
+// System.Void CubeTest::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CubeTest__ctor_mDB3459DBBFFE4BA1182E34D82451D54D7F038D70 (CubeTest_t363022E89B7E5EB4C1D16110EA731B55A053D0E2* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
