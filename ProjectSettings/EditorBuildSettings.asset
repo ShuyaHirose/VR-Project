@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/DistanceTest.unity
     guid: 0ef0335cea41521428add9494c350870
   - enabled: 1
-    path: Assets/Scenes/OBJ Scene.unity
+    path: Assets/Scenes/OBJ Scene_size.unity
     guid: b73d29f8c201d4c47a09a73d09231c96
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 94fb36bb864c3c247a8252eeef0b2f88,
