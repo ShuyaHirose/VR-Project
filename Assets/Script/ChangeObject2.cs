@@ -20,7 +20,7 @@ public class ChangeObject2 : MonoBehaviour
         count = 1;
     }
  
-    void Update()
+     void Update()
     {
         if (Input.GetKeyDown(KeyCode.RightArrow)){
             count++;
@@ -28,7 +28,8 @@ public class ChangeObject2 : MonoBehaviour
                 count = 1;
             }
         }
- 
+
+         
         if (Input.GetKeyDown(KeyCode.LeftArrow)){
             count--;
             if(count < 1){
