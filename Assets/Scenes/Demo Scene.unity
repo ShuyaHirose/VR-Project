@@ -876,9 +876,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed6923337c4ca4d88a62483bca2cf2fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  standard: {fileID: 0}
-  sizechange: {fileID: 0}
-  count: 0
 --- !u!114 &127093416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -893,6 +890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   size_std: {fileID: 585194988}
   size_cha: {fileID: 523297966}
+  size_mid: {fileID: 1095930574}
   pos_std: {fileID: 2008264272}
   pos_mid: {fileID: 1083597947}
   pos_low: {fileID: 491383328}
